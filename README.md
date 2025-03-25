@@ -59,7 +59,9 @@ The executable will be located in `target/release/black-jak`.
 
 The project includes a build script to compile for both Windows and Linux:
 
+On Linux:
 ```bash
+chmod +x your_script.sh
 ./build.sh
 ```
 
