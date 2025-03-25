@@ -2,11 +2,10 @@
 
 A command-line implementation of the classic Blackjack card game written in Rust.
 
-( yeah, I know the name is incorrect. Sorry for that)
 
 ## Overview
 
-Black-Jak is a simple terminal-based Blackjack game where you can play against a computer dealer. The game follows standard Blackjack rules where the goal is to get a hand value closer to 21 than the dealer without going over.
+Black-Jack is a simple terminal-based Blackjack game where you can play against a computer dealer. The game follows standard Blackjack rules where the goal is to get a hand value closer to 21 than the dealer without going over.
 
 ## Features
 
@@ -39,8 +38,8 @@ Black-Jak is a simple terminal-based Blackjack game where you can play against a
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/black-jak.git
-cd black-jak
+git clone https://github.com/NickSishchuck/blackJack.git
+cd black-jack
 ```
 
 ## Building
@@ -53,7 +52,7 @@ Build the project using Cargo:
 cargo build --release
 ```
 
-The executable will be located in `target/release/black-jak`.
+The executable will be located in `target/release/black-jack`.
 
 ### Cross-Platform Build
 
@@ -66,16 +65,16 @@ chmod +x your_script.sh
 ```
 
 This will create a `builds` directory containing:
-- `black-jak.exe` (Windows executable)
-- `black-jak-linux` (Linux executable)
+- `black-jack.exe` (Windows executable)
+- `black-jack-linux` (Linux executable)
 
 ## How to Play
 
 1. Run the executable:
    ```bash
-   ./black-jak
+   ./black-jack
    # or on Windows
-   black-jak.exe
+   black-jack.exe
    ```
 
 2. When prompted, indicate whether you're familiar with Blackjack rules by typing 'y' or 'n'.
