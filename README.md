@@ -1,4 +1,4 @@
-# Black-Jak
+# Black-Jack
 
 A command-line implementation of the classic Blackjack card game written in Rust.
 
